@@ -1,16 +1,16 @@
 
 
+
 # `Photoshop CC`
 
 `Photoshop CC - Design Notes`
 
 <p align="center">
  <img width="750px" src="https://1.bp.blogspot.com/-M5Yw4Cdj6R4/X5_3sNeSeNI/AAAAAAAABQ4/s1UEhJVXvawCgAFK6OogTdhXo8tzRYkqQCLcBGAsYHQ/s16000/photoshop-cc2019fun.jpg" align="center" alt="GitHub Readme Stats" />
- <h2 align="center">Photoshop CC 2019 Guide</h2>
+ <h2 align="center">Photoshop CC 2019 Beginners Guide</h2>
 </p>
 
-Login to [Photoshop](https://www.adobe.com/products/photoshop.html)
-
+To Learn officially go to.. [Photoshop](https://helpx.adobe.com/photoshop/tutorials.html)
 
 ---
 
@@ -95,8 +95,9 @@ So far, we've been focusing all of our attention on the main panel column, but t
 </p>
 
 Panels:
-- Press Tab to hide panels. Tab tab to toggle.
-- Save your panel layout to new workspace.
+- Press Tab to `Hide Panels`. 
+- `Tab` + `Tab` to Toggle.
+- Save your panel layout to `New Workspace`.
 
 ---
 
@@ -145,28 +146,41 @@ Temporary Hand Tool = `Space` + `click` + `drag`
 
 ## Tools 
 
+<h2 align="center">How To Crop</h2>
+
 Crop Tool:
 - If `Delete Cropped Pixels` unchecked then you can move the image anytime and re-crop later.
+- By `Alt` + `drag` you can change the crop area.
 - To rotate an image you can select and drag crop corners.
+- You can uncrop anytime from Image >> Reveal All.
 
 Eyedropper Tool >> Ruler Tool:
 - Now drag a measurement horizontally or vertically then click `Straighten Layer` to tilt/rotate image without adding any white space around the corners.
 
 Image >> Image Rotation >> Arbitrary:
-- This way PS adds white space around the corners.
+- This way Photoshop adds white space around the corners.
 
 Crop Tool: 
 - with `W x H x Resolution` selected 1024 px & 768 px then enter to apply that. 
 - Selecting `New Crop Preset` can save your aspect ratio for future use. 
 
 Marquee Tool: 
-- There are options to fix size of aspect ratio. By putting aspect ratio here and then click anywhere on the image area. So that you can crop the exact image. 
+- In options bar there is a type called `Fixed Size` of aspect ratio. By putting my aspect ratio here and then click anywhere on my image area of position. Then Image >> Crop to crop image. Then deselect it by `Ctrl` + `D`.
+
+<h2 align="center">Add Additional Canvas Area</h2>
+<h4 align="center">Around The Image</h4>
 
 Crop Tool:
-- To add additional canvas area around your image > right click crop icon in options bar > `Reset Tool`. So that it will clear the options bar. Press Esc to remove crop area. Then drag your crop. `Ctrl` + `-` to zoom out and `Alt` + `drag` to expand area also `Shift` key to maintain proportion. Now you see white space around the image. So Ctrl + Z to add transparency. Unlock 🔓 layer. Then `Alt` + `Shift` + `drag` to see checker board around the image. 
-- Image >> Canvas Size > Relative. Now you can move the image anywhere you like in the canvas. 
+- To add additional canvas area around your image 
+- To clear previous ratio, right click crop icon in options bar > `Reset Tool`. So that it will clear the options bar. 
+- Press `Esc` to remove crop area. 
+- Then drag your crop area. `Ctrl` + `-` to zoom out and `Alt` + `drag` to expand area also `Shift` key to maintain proportion. Now you see white space around the image. Unlock 🔓 layer. Then `Alt` + `Shift` + `drag` to see checker board around the image. 
+- Image >> Canvas Size > Relative (checked). Now you can click anywhere you like in the canvas to show up crop area. 
 - To fill with background color go Layer >> New Fill Layer >> Solid Color to pick a color. 
 
+<h2 align="center">Layer Management</h2>
+
+- In Photoshop Layer are great. 
 
 ---
 
@@ -222,4 +236,5 @@ After selecting part of image hit Q. Now you can precise selection by toggling `
 Feel free to Contact me on [Twitter](https://mobile.twitter.com/jayedrashid), send an email to jayed@jayedrashid.com
 
 <img height="20" src="https://www.bollywoodmdb.com/images/uparrow.gif"> [back to top](#quick-links)<br>
+
 

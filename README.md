@@ -1,6 +1,5 @@
 
 
-
 # `Photoshop CC`
 
 `Photoshop CC - Design Notes`
@@ -167,8 +166,7 @@ Crop Tool:
 Marquee Tool: 
 - In options bar there is a type called `Fixed Size` of aspect ratio. By putting my aspect ratio here and then click anywhere on my image area of position. Then Image >> Crop to crop image. Then deselect it by `Ctrl` + `D`.
 
-<h2 align="center">Add Additional Canvas Area</h2>
-<h4 align="center">Around The Image</h4>
+<h2 align="center">Additional Canvas Area</h2>
 
 Crop Tool:
 - To add additional canvas area around your image 
@@ -178,9 +176,33 @@ Crop Tool:
 - Image >> Canvas Size > Relative (checked). Now you can click anywhere you like in the canvas to show up crop area. 
 - To fill with background color go Layer >> New Fill Layer >> Solid Color to pick a color. 
 
-<h2 align="center">Layer Management</h2>
+<h2 align="center">Layers Panel</h2>
 
-- In Photoshop Layer are great. 
+It is quite necessary to master the Photoshop Layers Panel. 
+
+- Open new document.
+- Bring multiple images as window tiles.
+- Drag n drop image from layer panel to New Document.
+- Holding `Shift` key lets you drop it in center.
+- Bring Ruler. Right click on ruler make to percent.
+- Drag it to your desired position
+- Marquee Tool > click n drag any area.
+- Press delete key to erase that area.
+- Then deselect it by `Ctrl` + `D`.
+- Frame Tool > click n drag any area.
+- You can reposition image from layer icon.
+- By selecting any image go View >> New Guide Layout to add `Margin` both sides.
+- By selecting all images go options bar and choose alignment to arrange horizontally or vertically images.
+- By selecting all images go options bar and choose More >> Distribute Spacing to give even spaces between images.
+- View >> Show >> Guides to hide the guides
+- By selecting all images press `Ctrl` + `G` to group.
+- You can move all images together by selecting a group.
+- Frame Tool > Circle from options bar.
+- Select an image from layer panel.
+- Dragging out a squire from corner to corner over the image. When you release the curser you get a circle shape of that image.
+
+
+
 
 ---
 

@@ -175,6 +175,7 @@ Crop Tool:
 - Then drag your crop area. `Ctrl` + `-` to zoom out and `Alt` + `drag` to expand area also `Shift` key to maintain proportion. Now you see white space around the image. Unlock 🔓 layer. Then `Alt` + `Shift` + `drag` to see checker board around the image. 
 - Image >> Canvas Size > Relative (checked). Now you can click anywhere you like in the canvas to show up crop area. 
 - To fill with background color go Layer >> New Fill Layer >> Solid Color to pick a color. 
+- In options bar `Content-Aware` checked can auto fill any of the white corner by calculating itself. Not always do a perfect job though. 
 
 <h2 align="center">Layers Panel</h2>
 
@@ -200,6 +201,39 @@ It is quite necessary to master the Photoshop Layers Panel.
 - Frame Tool > Circle from options bar.
 - Select an image from layer panel.
 - Dragging out a squire from corner to corner over the image. When you release the curser you get a circle shape of that image.
+
+Merge Layers:
+
+Layer >> Merge Layers don't let you to reposition individual images. You can't change back to frame shapes to previous state as well. 
+Layer >> Flatten Image turns everything to one layer which is a background.
+
+File Export:
+
+File >> Export >> Export Preferences to make my preferable output.
+Layer >> Export As to save multiple images at once >> Export.
+
+Brush Tool:
+
+To increase brush size press `]`
+<br>
+To decrease brush size press `[`
+<br>
+`Alt` + `Right Click` then drag left or right to resize
+<br>
+`Alt` + `Right Click` then drag up or down to hardness
+<br>
+To edit brush `Right Click` brings context menu and press `Enter` to hide it again.
+<br>
+Hold `Shift` key to make a straight line.
+<br>
+To connect dots between two areas click once hold down `shift` key and click again so Photoshop will draw a straight line. 
+
+Erase Everything:
+
+Edit >> Fill to fill the canvas with white color.
+<br> or <br>
+`Ctrl` + `Delete` to fill the canvas with white color.
+
 
 
 
@@ -258,5 +292,4 @@ After selecting part of image hit Q. Now you can precise selection by toggling `
 Feel free to Contact me on [Twitter](https://mobile.twitter.com/jayedrashid), send an email to jayed@jayedrashid.com
 
 <img height="20" src="https://www.bollywoodmdb.com/images/uparrow.gif"> [back to top](#quick-links)<br>
-
 

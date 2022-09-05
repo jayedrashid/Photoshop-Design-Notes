@@ -207,12 +207,18 @@ Merge Layers:
 Layer >> Merge Layers don't let you to reposition individual images. You can't change back to frame shapes to previous state as well. 
 Layer >> Flatten Image turns everything to one layer which is a background.
 
-File Export:
+Layer File Export:
 
 File >> Export >> Export Preferences to make my preferable output.
 Layer >> Export As to save multiple images at once >> Export.
 
-Brush Tool:
+<h2 align="center">Erase Everything</h2>
+
+Edit >> Fill to fill the canvas with white color.
+<br> or <br>
+`Ctrl` + `Delete` to fill the canvas with white color.
+
+<h2 align="center">Brush Tool</h2>
 
 To increase brush size press `]`
 <br>
@@ -228,11 +234,25 @@ Hold `Shift` key to make a straight line.
 <br>
 To connect dots between two areas click once hold down `shift` key and click again so Photoshop will draw a straight line. 
 
-Erase Everything:
+- Brush selected press 3 to change option bar Opacity to 30%.
+- By default overlapping opacity creates darker shades. By changing to Screen Mode to `fff` will lighten the overlapping area.
+- In option bar Flow defines continuity of points.
+- Smoothing smooths the brush trail.
+- Smoothing `Pulled String Mode` checked you can push beyond the circle and photoshop will start drawing the line.
 
-Edit >> Fill to fill the canvas with white color.
-<br> or <br>
-`Ctrl` + `Delete` to fill the canvas with white color.
+<h2 align="center">Layer Masks</h2>
+
+- Layer Masks are key feature of photoshop that allow us to non-destructible hide and show selected portions of our image.
+- After selecting an image layer go to Layer >> Layer Masks >> Reveal All to add a white mask to this layer.
+- If the mask is white then it's not transparent. So you can only see the current layer image.
+- But the black portions of mask is transparent and let's you see other layer image below the current layer.
+- After selecting a image layer go to Layer >> Layer Masks >> Hide All to add a black mask to the current layer.
+- While selected mask press `B` key to initiate brush. Change brush size. 
+- Press `X` key to change foreground color to black. Then click and paint to reveal the image layer which is below the current image layer.
+- If you reveal too much area then press `X` key again to change foreground color to white. Then click and paint to adjust.
+- If you want to view the mask press `Alt` + `click` on mask thumbnail in the layer panel. 
+- Click on the eye icon to view the layer again.
+
 
 
 
@@ -292,4 +312,5 @@ After selecting part of image hit Q. Now you can precise selection by toggling `
 Feel free to Contact me on [Twitter](https://mobile.twitter.com/jayedrashid), send an email to jayed@jayedrashid.com
 
 <img height="20" src="https://www.bollywoodmdb.com/images/uparrow.gif"> [back to top](#quick-links)<br>
+
 

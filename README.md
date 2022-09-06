@@ -202,12 +202,12 @@ It is quite necessary to master the Photoshop Layers Panel.
 - Select an image from layer panel.
 - Dragging out a squire from corner to corner over the image. When you release the curser you get a circle shape of that image.
 
-Merge Layers:
+<h2 align="center">Merge Layers</h2>
 
 Layer >> Merge Layers don't let you to reposition individual images. You can't change back to frame shapes to previous state as well. 
 Layer >> Flatten Image turns everything to one layer which is a background.
 
-Layer File Export:
+<h2 align="center">Layer File Export</h2>
 
 File >> Export >> Export Preferences to make my preferable output.
 Layer >> Export As to save multiple images at once >> Export.
@@ -253,8 +253,35 @@ To connect dots between two areas click once hold down `shift` key and click aga
 - If you want to view the mask press `Alt` + `click` on mask thumbnail in the layer panel. 
 - Click on the eye icon to view the layer again.
 
+<h2 align="center">Gradients to Blend</h2>
 
+One image blend into another
+- between two images apply mask on top layer.
+- Press `G` to initiate gradient tool
+- Press `D` to make foreground and background colors default. So the gradient will be white to black.
+- now click and drag a line over the image. Hold `Shift` key to make a straight line.
+- to make gradient from opposite direction press Window >> Properties >> Invert your mask or press Ctrl + I.
+- to reposition the image, you need to unlink it from mask in layer Panel.
 
+<h2 align="center">Marquee & Lasso Tool</h2>
+
+- these are most common selection tools.
+- Rectangular Marquee Tool to make a selection. 
+- From options bar `Subtract From Selection` checked then select areas you want to remove.
+- to fill the selected areas with color Layer >> New Fill Layer >> Solid Color then OK and choose color. 
+- Elliptical Marquee Tool to make a circle selection. To reposition hold `Space` + `drag`. You may `Shift` + `drag` to maintain a ratio. 
+- Select >> Transform Selection to resize.
+- to fill the selected areas with color Layer >> New Fill Layer >> Solid Color then OK and choose color. 
+- `Ctrl` + `Click` on mask to bring back selection.
+- then reposition selection area.
+- Edit >> Fill to fill it with black.
+- now `Ctrl` + `D` to deselect.
+- Polygonal Lasso Tool to make a Christmas tree.
+- Magnetic Lasso Tool to make a hair style.
+- after selecting an area go Select >> Transform Selection to scale the area or you can right click to get more options like Scale, Rotate, Skew, Distort, Perspective.
+- after selecting an area hold `Shift` + `drag` to add more area or hold `Alt` + `drag` to subtract any area.
+- press `Q` key to view quick mask in red color window to show areas that are not selected.
+- after selecting an area from adjustment layer panel >> Brightness/Contrast then go to Properties panel to increase or decrease. 
 
 
 
@@ -312,5 +339,4 @@ After selecting part of image hit Q. Now you can precise selection by toggling `
 Feel free to Contact me on [Twitter](https://mobile.twitter.com/jayedrashid), send an email to jayed@jayedrashid.com
 
 <img height="20" src="https://www.bollywoodmdb.com/images/uparrow.gif"> [back to top](#quick-links)<br>
-
 

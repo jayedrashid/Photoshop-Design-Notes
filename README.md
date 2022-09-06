@@ -205,11 +205,13 @@ It is quite necessary to master the Photoshop Layers Panel.
 <h2 align="center">Merge Layers</h2>
 
 Layer >> Merge Layers don't let you to reposition individual images. You can't change back to frame shapes to previous state as well. 
+<br>
 Layer >> Flatten Image turns everything to one layer which is a background.
 
 <h2 align="center">Layer File Export</h2>
 
 File >> Export >> Export Preferences to make my preferable output.
+<br>
 Layer >> Export As to save multiple images at once >> Export.
 
 <h2 align="center">Erase Everything</h2>
@@ -220,21 +222,14 @@ Edit >> Fill to fill the canvas with white color.
 
 <h2 align="center">Brush Tool</h2>
 
-To increase brush size press `]`
-<br>
-To decrease brush size press `[`
-<br>
-`Alt` + `Right Click` then drag left or right to resize
-<br>
-`Alt` + `Right Click` then drag up or down to hardness
-<br>
-To edit brush `Right Click` brings context menu and press `Enter` to hide it again.
-<br>
-Hold `Shift` key to make a straight line.
-<br>
-To connect dots between two areas click once hold down `shift` key and click again so Photoshop will draw a straight line. 
-
-- Brush selected press 3 to change option bar Opacity to 30%.
+- To increase brush size press `]`
+- To decrease brush size press `[`
+- `Alt` + `Right Click` then drag left or right to resize
+- `Alt` + `Right Click` then drag up or down to hardness
+- To edit brush `Right Click` brings context menu and press `Enter` to hide it again.
+- Hold `Shift` key to make a straight line.
+- To connect dots between two areas click once hold down `shift` key and click again so Photoshop will draw a straight line. 
+- By selected Brush press 3 to change option bar Opacity to 30%.
 - By default overlapping opacity creates darker shades. By changing to Screen Mode to `fff` will lighten the overlapping area.
 - In option bar Flow defines continuity of points.
 - Smoothing smooths the brush trail.

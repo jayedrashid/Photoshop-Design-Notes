@@ -235,7 +235,7 @@ Edit >> Fill to fill the canvas with white color.
 - Smoothing smooths the brush trail.
 - Smoothing `Pulled String Mode` checked you can push beyond the circle and photoshop will start drawing the line.
 
-<h2 align="center">Layer Masks</h2>
+<h2 align="center">Layer Mask</h2>
 
 - Layer Masks are key feature of photoshop that allow us to non-destructible hide and show selected portions of our image.
 - After selecting an image layer go to Layer >> Layer Masks >> Reveal All to add a white mask to this layer.
@@ -278,7 +278,96 @@ One image blend into another
 - press `Q` key to view quick mask in red color window to show areas that are not selected.
 - after selecting an area from adjustment layer panel >> Brightness/Contrast then go to Properties panel to increase or decrease. 
 
+<h2 align="center">Object Selection Tool</h2>
 
+- set mode to Rectangle and select an area then go adjustment layer panel >> Hue/Saturation then go to properties and change hue.
+- set mode to Lasso and select an area. To edit areas press Alt + drag to subtract areas then go adjustment layer panel >> Hue/Saturation then go to properties and change hue.
+- so that selection areas got new colors
+
+<h2 align="center">Quick Selection Tool</h2>
+ 
+- click and drag so Photoshop can auto select the colored areas. 
+- To edit areas press Alt + drag to subtract areas then go adjustment layer panel >> Hue/Saturation then go to properties and change hue.
+
+To select a primary subject by Photoshop AI go Select >> Subject then go adjustment layer panel >> Hue/Saturation then go to properties and change hue. Properties >> Mask >> Invert. 
+
+<h2 align="center">Object Selection Tool</h2>
+ 
+- set mode to Rectangle and select an area.
+- Lasso Tool to subtract the selection precisely.
+- then choose Select And Mask from options bar.
+- then we get many tools on left. On right Smart Radius checked to fine tune animal fur.
+- then go adjustment layer panel >> Hue/Saturation then go to properties and change Saturation.Properties >> Mask >> Invert.
+
+<h2 align="center">Drop Shadow</h2>
+
+- To make a selection go Select >> Subject then Lasso Tool and Alt + drag to subtract.
+- In options bar press Select and Mask
+- Now on the properties panel make a combination between Feather and Shift Edge then click OK
+- Now click mask
+- from bottom panel press fx >> Drop Shadows then click on image area and reposition that shadow
+- change Size and Opaciry if you like then OK
+
+<h2 align="center">Spot Healing Brush Tool</h2>
+
+- Ctrl + (plus) to zoom
+- Spot Healing Brush in options bar Type: Content-Aware (Which enables nearby image content). Then click and drag.
+- You can do this change on a different layer. So make a new layer. Make sure Sample All Layers is checked.
+
+<h2 align="center">Healing Brush Tool</h2>
+
+- Healing Brush in options bar Sample: Current & Below checked.
+- Here you will tell photoshop where to take the sample from. Hold Alt to take the sample.
+- then click where you want to paint
+
+<h2 align="center">Patch Tool</h2>
+
+- Patch Tool in options bar Type: Content-Aware checked
+- Make a selection
+- Drag the selection where you want to take the sample from
+- Ctrl + D to deselect
+
+<h2 align="center">Magic of Content-Aware Fill</h2>
+
+- Lasso Tool to make a selection
+- go Edit >> Fill and set the Contents: Content-Aware and Color Adaptation checked
+- click OK
+- Ctrl + D to deselect
+More Advance Way:
+- Lasso Tool to make a selection
+- go Edit >> Content-Aware Fill and we see before and after image.
+- set the Sampling Area Options to Custom
+- sample area brush to take the sample by myself
+- then Output To: New Layer
+- click OK
+- Ctrl + D to deselect
+
+<h2 align="center">Content-Aware to Move/Scale</h2>
+
+REMOVE something:
+- Lasso Tool to make a selection
+- choose Patch Tool and move the selection out
+- Ctrl + D to deselect
+ADD something:
+- Lasso Tool to make a selection
+- choose Content-Aware Move Tool and move the selection to your desired position
+- tap enter to apply the change.
+- to get a better view Ctrl + H to hide selection
+- in options bar change Structure and Color combination to get better results
+
+<h2 align="center">Remove Large Element</h2>
+
+- Lasso Tool to make a selection what I want
+- go Layer >> New >> Layer Via Copy 
+- move the selection on top what I want to remove
+- go adjustment layer panel and press Mask by holding Alt key in order to get a black mask 
+- press B key to get a brush and make sure foreground color is white
+- now click and drag to remove as you like
+
+<h2 align="center">Blend Mode</h2>
+
+<!-- - Lasso Tool to make a selection what I want
+- go  -->
 
 ---
 

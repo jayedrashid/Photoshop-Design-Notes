@@ -19,6 +19,7 @@ To Learn officially go to.. [Photoshop](https://helpx.adobe.com/photoshop/tutori
 - [Interface](#interface)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Tools](#tools)
+- [Colors In Photoshop](#colors-in-photoshop)
 <!-- - [Export File Format](#export-file-format) -->
 
 
@@ -364,19 +365,60 @@ ADD something:
 - press B key to get a brush and make sure foreground color is white
 - now click and drag to remove as you like
 
-<h2 align="center">Blend Mode</h2>
+<h2 align="center">Smart Objects</h2>
 
-<!-- - Lasso Tool to make a selection what I want
-- go  -->
+- being on an image layer go Layer >> Smart Objects >> Convert to Smart Object 
+- then go Edit >> Transform >> Scale to resize it
+- then reposition it to the center
+- press warp icon on options bar and choose warp: Arch you may also change Bend % then click OK
+
+<h2 align="center">Text Effects</h2>
+
+- unlock background to make a layer
+- right click on this layer and check Gradient Overlay on layer style
+- then choose Gradient color to Black, White 
+- Opacity 50%
+- check Reverse
+- style to Radial
+- angle to 30° then click OK
+- press D to make foreground color Black
+- press X to toggle it White
+- press T to Horizontal Type Tool
+- font elephant, size 454 pt, center
+- now click to write text
+- right click on this text layer and check Stroke on layer style
+- then choose Color to White 
+- Opacity 50%
+- Position to Outside then click OK
+Open your Image:
+- open image (it will open in another document)
+- make selection with smart select
+- apply mask to the image layer
+- send the layer to previous document
+- reposition image with text
+- Ctrl + J to duplicate layer
+- on the new layer delete the mask
+- by selecting image from new layer Ctrl + click on text layer to select the text
+- click layer mask to mask the text
+- from old layer Ctrl + click on image mask to select the image area
+- by selecting image from new layer mask go brush and click the areas you want to reveal
+- Ctrl + D to deselect
+
 
 ---
 
-## Color Mode
+## Colors In Photoshop
 
 * Color Mode
     * RGB 8 bit
     * RGB 16 bit
     * RGB 32 bit
+
+* Color Space
+    * sRGB: small color space, great for web graphics and screen display.
+    * Adobe RGB: larger color space, popular for working in Photoshop.
+    * ProPhoto: very large color space, contain more colors than a monitor can display.
+    * CMYK: limited color space, specific to printing to a press.
 
 
 ---
@@ -423,4 +465,5 @@ After selecting part of image hit Q. Now you can precise selection by toggling `
 Feel free to Contact me on [Twitter](https://mobile.twitter.com/jayedrashid), send an email to jayed@jayedrashid.com
 
 <img height="20" src="https://www.bollywoodmdb.com/images/uparrow.gif"> [back to top](#quick-links)<br>
+
 

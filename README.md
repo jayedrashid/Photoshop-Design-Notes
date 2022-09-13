@@ -392,17 +392,66 @@ ADD something:
 - Position to Outside then click OK
 Open your Image:
 - open image (it will open in another document)
-- make selection with smart select
+- go Quick Selection Tool in options bar press Select Subject to make auto select portrait
 - apply mask to the image layer
 - send the layer to previous document
 - reposition image with text
 - Ctrl + J to duplicate layer
+- unchain image from mask
 - on the new layer delete the mask
 - by selecting image from new layer Ctrl + click on text layer to select the text
 - click layer mask to mask the text
 - from old layer Ctrl + click on image mask to select the image area
 - by selecting image from new layer mask go brush and click the areas you want to reveal
 - Ctrl + D to deselect
+Text Effects:
+- after selecting text go Window >> Character for text editor
+- from text layer go to Adjustment >> Hie/Saturation then change color by Colorize checked
+- Ctrl + Alt + G to clip it to text layer as clipping mask. So it's only affect text layer but not the image below.
+Text Effects:
+- create a text
+- on text layer double click >> Color Overlay
+- on text layer right click >> Rasterize Type
+- on text layer right click >> Rasterize Layer Style
+- right click on this layer and check Gradient O
+
+<h2 align="center">Pen Tool</h2>
+
+- it can be Shape/Path
+- click and connect the first point makes a line 
+- click and drag makes a curve
+- you can edit points later by pressing Ctrl + click on individual points. 
+- you can also add points by hover over line or remove a point by hover over a point.
+- you can bring handle to a point by pressing Alt + drag
+- pressing Alt key turns corner to curve and vice versa.
+- pressing Ctrl + Shift selects multiple points
+- you can always find your line drawings in Paths panel
+- after creating a path to make it a fill go adjustment layer panel >> Solid Color then choose a color to make it a shape. 
+- shape always makes a new layer
+
+<h2 align="center">Image to Art Effect</h2>
+
+- open image
+- go Quick Selection Tool in options bar press Select Subject to make auto select portrait
+- apply mask to the image layer
+- create a new layer below this
+- choose a foreground color
+- then press Alt + Option + Delete to fill the layer with that color
+
+<h2 align="center">Fit Image in a Shape</h2>
+
+- open image
+- create a rectangle
+- double click on this layer to change color
+- right click on layer >> Create Clipping Mask to fit image within the Rectangular shape
+
+<h2 align="center">Bring Logo</h2>
+
+- drag n drop a jpeg image
+- right click and press Rasterize layer
+- choose Background Eraser Tool to remove logo background
+- double click on this layer and choose Color Overlay layer style
+
 
 
 ---
@@ -465,5 +514,4 @@ After selecting part of image hit Q. Now you can precise selection by toggling `
 Feel free to Contact me on [Twitter](https://mobile.twitter.com/jayedrashid), send an email to jayed@jayedrashid.com
 
 <img height="20" src="https://www.bollywoodmdb.com/images/uparrow.gif"> [back to top](#quick-links)<br>
-
 

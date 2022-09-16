@@ -414,6 +414,19 @@ Text Effects:
 - on text layer right click >> Rasterize Type
 - on text layer right click >> Rasterize Layer Style
 - right click on this layer and check Gradient O
+Text Effects:
+- Select and right a text
+- from layer right click >> Convert to Smart Object
+- press Ctrl + T to transform
+- right click >> Warp to change the shape
+Text Effects:
+- Select and right a text
+- from layer right click >> Convert to Smart Object
+- change Fill % to 0
+- change stroke 5px white
+- from text layer Ctrl + Click to select
+- go Select >> Inverse
+- to make it a fill go adjustment layer panel >> Solid Color then choose a color. 
 
 <h2 align="center">Pen Tool</h2>
 
@@ -438,6 +451,32 @@ Text Effects:
 - choose a foreground color
 - then press Alt + Option + Delete to fill the layer with that color
 
+<h2 align="center">Neon Portrait Effect</h2>
+
+- drag n drop an image
+- make selection with Pen Tool press P
+- from options bar choose mode Shape, Fill none, Stroke white 10 px
+- now draw face, hair, eyes etc
+- press Ctrl to close drawing
+- press A for Path Selection Tool to select any of the shapes and edit them
+- to make photo layer a fill go adjustment layer panel >> Solid Color then choose a dark color. 
+- select all face layers then press Ctrl + G to group
+- select all sunglasses layers then press Ctrl + G to group
+- now double click on face layer group for layer style
+- choose Outer Glow for neon effect
+- choose Drop Shadow
+- change color of sunglasses layers group from Outer Layer
+- from face layers group Alt + drag the sub Effect layer to the sunglasses layers group
+- now copy those 3 layer groups
+- from new groups delete Drop Shadow
+- from new groups selected press Ctrl + E to Rasterize layer
+- now right click on this layer >> Convert to Smart Object 
+- go Filter >> Blur >> Gaussian Blur to radius 114.8
+- choose Ellipse Tool 
+- from options bar choose mode Shape, Fill neon color, Stroke none
+- go Properties panel >> Mask >> Feather increase
+- now choose brush to darken the corners
+
 <h2 align="center">Fit Image in a Shape</h2>
 
 - open image
@@ -452,6 +491,22 @@ Text Effects:
 - choose Background Eraser Tool to remove logo background
 - double click on this layer and choose Color Overlay layer style
 
+<h2 align="center">Insert Logo in Photoshop</h2>
+
+- drag n drop PNG image on a PS document
+- from layer right click >> Color Overlay to choose a color. 
+
+<h2 align="center">Make a PNG Image</h2>
+
+- open an image
+- make selection
+- from options bar choose Select And Mask to open an extra menu
+- choose Refine Edge Brush Tool to fine select hair from the background. press Alt key to reverse this process in case of mistake.
+- change Smooth 5, Feather 1
+- below this there's Output Settings >> New Layer with Layer Mask
+- then click OK 
+- now we'll see the transparent alpha channel in our layer mask
+- go File >> Save As then choose .psd or .png
 
 
 ---

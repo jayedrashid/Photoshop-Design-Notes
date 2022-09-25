@@ -1,5 +1,4 @@
 
-
 # `Photoshop CC`
 
 `Photoshop CC - Design Notes`
@@ -18,7 +17,7 @@ To Learn officially go to.. [Photoshop](https://helpx.adobe.com/photoshop/tutori
 - [Photoshop](#photoshop)
 - [Interface](#interface)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
-- [Tools](#tools)
+- [Tools And Tricks](#tools-and-tricks)
 - [Colors In Photoshop](#colors-in-photoshop)
 <!-- - [Export File Format](#export-file-format) -->
 
@@ -144,9 +143,9 @@ Temporary Hand Tool = `Space` + `click` + `drag`
 
 ---
 
-## Tools 
+## Tools And Tricks
 
-<h2 align="center">How To Crop</h2>
+<h2 align="center">Crop Tool - Basics</h2>
 
 Crop Tool:
 - If `Delete Cropped Pixels` unchecked then you can move the image anytime and re-crop later.
@@ -167,7 +166,7 @@ Crop Tool:
 Marquee Tool: 
 - In options bar there is a type called `Fixed Size` of aspect ratio. By putting my aspect ratio here and then click anywhere on my image area of position. Then Image >> Crop to crop image. Then deselect it by `Ctrl` + `D`.
 
-<h2 align="center">Additional Canvas Area</h2>
+<h2 align="center">Crop Tool - Additional Canvas Area</h2>
 
 Crop Tool:
 - To add additional canvas area around your image 
@@ -178,7 +177,7 @@ Crop Tool:
 - To fill with background color go Layer >> New Fill Layer >> Solid Color to pick a color. 
 - In options bar `Content-Aware` checked can auto fill any of the white corner by calculating itself. Not always do a perfect job though. 
 
-<h2 align="center">Layers Panel</h2>
+<h2 align="center">Layer Panel</h2>
 
 It is quite necessary to master the Photoshop Layers Panel. 
 
@@ -203,7 +202,7 @@ It is quite necessary to master the Photoshop Layers Panel.
 - Select an image from layer panel.
 - Dragging out a squire from corner to corner over the image. When you release the curser you get a circle shape of that image.
 
-<h2 align="center">Merge Layers</h2>
+<h2 align="center">Layer Merge</h2>
 
 Layer >> Merge Layers don't let you to reposition individual images. You can't change back to frame shapes to previous state as well. 
 <br>
@@ -249,7 +248,7 @@ Edit >> Fill to fill the canvas with white color.
 - If you want to view the mask press `Alt` + `click` on mask thumbnail in the layer panel. 
 - Click on the eye icon to view the layer again.
 
-<h2 align="center">Gradients to Blend</h2>
+<h2 align="center">Gradient Blend</h2>
 
 One image blend into another
 - between two images apply mask on top layer.
@@ -258,6 +257,12 @@ One image blend into another
 - now click and drag a line over the image. Hold `Shift` key to make a straight line.
 - to make gradient from opposite direction press Window >> Properties >> Invert your mask or press Ctrl + I.
 - to reposition the image, you need to unlink it from mask in layer Panel.
+
+<h2 align="center">Apply Gradient (Best Way)</h2>
+
+- bring image
+- go to Fill Adjustment layer >> Gradient then choose color with less opacity
+- go panel blend Mode >> Overlay to apply it on image
 
 <h2 align="center">Marquee & Lasso Tool</h2>
 
@@ -279,7 +284,7 @@ One image blend into another
 - press `Q` key to view quick mask in red color window to show areas that are not selected.
 - after selecting an area from adjustment layer panel >> Brightness/Contrast then go to Properties panel to increase or decrease. 
 
-<h2 align="center">Object Selection Tool</h2>
+<h2 align="center">Make Selection</h2>
 
 - set mode to Rectangle and select an area then go adjustment layer panel >> Hue/Saturation then go to properties and change hue.
 - set mode to Lasso and select an area. To edit areas press Alt + drag to subtract areas then go adjustment layer panel >> Hue/Saturation then go to properties and change hue.
@@ -298,7 +303,7 @@ To select a primary subject by Photoshop AI go Select >> Subject then go adjustm
 - Lasso Tool to subtract the selection precisely.
 - then choose Select And Mask from options bar.
 - then we get many tools on left. On right Smart Radius checked to fine tune animal fur.
-- then go adjustment layer panel >> Hue/Saturation then go to properties and change Saturation.Properties >> Mask >> Invert.
+- then go adjustment layer panel >> Hue/Saturation then go to properties and change Saturation. Then go Properties >> Mask >> Invert.
 
 <h2 align="center">Drop Shadow</h2>
 
@@ -390,7 +395,7 @@ ADD something:
 - then choose Color to White 
 - Opacity 50%
 - Position to Outside then click OK
-Open your Image:
+- ** Open your Image **
 - open image (it will open in another document)
 - go Quick Selection Tool in options bar press Select Subject to make auto select portrait
 - apply mask to the image layer
@@ -404,22 +409,22 @@ Open your Image:
 - from old layer Ctrl + click on image mask to select the image area
 - by selecting image from new layer mask go brush and click the areas you want to reveal
 - Ctrl + D to deselect
-Text Effects:
+- ** Text Effects **
 - after selecting text go Window >> Character for text editor
 - from text layer go to Adjustment >> Hie/Saturation then change color by Colorize checked
 - Ctrl + Alt + G to clip it to text layer as clipping mask. So it's only affect text layer but not the image below.
-Text Effects:
+- ** Text Effects ** 
 - create a text
 - on text layer double click >> Color Overlay
 - on text layer right click >> Rasterize Type
 - on text layer right click >> Rasterize Layer Style
 - right click on this layer and check Gradient O
-Text Effects:
+- ** Text Effects ** 
 - Select and right a text
 - from layer right click >> Convert to Smart Object
 - press Ctrl + T to transform
 - right click >> Warp to change the shape
-Text Effects:
+- ** Text Effects ** 
 - Select and right a text
 - from layer right click >> Convert to Smart Object
 - change Fill % to 0
@@ -484,6 +489,20 @@ Text Effects:
 - double click on this layer to change color
 - right click on layer >> Create Clipping Mask to fit image within the Rectangular shape
 
+<h2 align="center">Image Size Change</h2>
+
+- bring image
+- create new layer
+- go Image >> Image Size then put your desired pixels of width and height (1200 x 716) 
+- click OK
+
+<h2 align="center">Image Area Increase</h2>
+
+- bring image
+- select Crop Tool then increase any side of the area
+- select Rectangular Marquee Tool to select area you want to include
+- by selecting image layer go Edit >> Fill then select Contents: Content-Aware to fill area with the color of your image
+
 <h2 align="center">Bring Logo</h2>
 
 - drag n drop a jpeg image
@@ -508,6 +527,27 @@ Text Effects:
 - now we'll see the transparent alpha channel in our layer mask
 - go File >> Save As then choose .psd or .png
 
+<h2 align="center">PNG Image to Brush Preset</h2>
+
+- turn background to layer
+- go File >> Place Embedded then choose PNG
+- go Edit >> Define Brush Preset then give it a brush name
+- go File >> Open then choose an image
+- now turn image to Convert to Smart Object
+- add mask to image
+- change mask color to black
+- go to Brush Tool and paint with your previously created brush preset
+
+<h2 align="center">Light Fiber Effect</h2>
+
+- bring a colorful image
+- go Filter >> Pixelate >> Mezzotint with Type: Coarse Dots selected
+- go Filter >> Blur >> Radial Blur with Amount: 100, Blur Method: Zoom, Quality: Good/Best then OK
+- do this blur effect 3 times
+- go Filter >> Distort >> Twirl with Angle: 100° then OK
+- now from layer panel double click on double line of this Twirl tab and choose Mode: Lighten 
+- again go Filter >> Distort >> Twirl with Angle: -100° then OK
+- now from layer panel double click on double line of this Twirl tab and choose Mode: Lighten
 
 ---
 
@@ -569,4 +609,5 @@ After selecting part of image hit Q. Now you can precise selection by toggling `
 Feel free to Contact me on [Twitter](https://mobile.twitter.com/jayedrashid), send an email to jayed@jayedrashid.com
 
 <img height="20" src="https://www.bollywoodmdb.com/images/uparrow.gif"> [back to top](#quick-links)<br>
+
 
